@@ -1,5 +1,6 @@
 package leetcode
 
+// 289. 生命游戏
 func GameOfLife(board [][]int) (out [][]int) {
 	out = make([][]int, len(board))
 	// Check the values around each point
